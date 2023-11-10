@@ -96,7 +96,7 @@ public class MenuController {
     }
 
     public void onClickButtonDel479(ActionEvent actionEvent) {
-        if (price >= 479 && pizza450 > 0) {
+        if (price >= 479 && pizza479 > 0) {
             price -= 479;
             pizza479 -= 1;
             CounterPizza479.setText(String.valueOf(pizza479));

@@ -8,9 +8,11 @@ public class Users {
 
     {
         User admin = new User("0000", "8520");
+        User asya = new User("89119714277","poops");
 
 
         users.add(admin);
+        users.add(asya);
     }
 
 }
